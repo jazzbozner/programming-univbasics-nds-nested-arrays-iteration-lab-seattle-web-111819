@@ -32,19 +32,7 @@ end
   # that are in the inner Arrays
 
 def total_even_pairs(src)
-total = 0
-  counter = 0
-  while counter < src.length do
-  if (src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0)
-    total += (total + src[counter].sum)
-    counter += 1
-  else
-    counter += 1
-  end
-  total
-end
-
- total = 0
+  total = 0
   counter = 0
   while counter < src.length do
     if (src[counter][0] % 2 == 0) && (src[counter][1] % 2 == 0)
