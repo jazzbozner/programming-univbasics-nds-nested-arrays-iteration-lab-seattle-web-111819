@@ -44,6 +44,16 @@ total = 0
   total
 end
 
+ total = 0
+  counter = 0
+  while counter < src.length do
+    if (src[counter][0] % 2 == 0) && (src[counter][1] % 2 == 0)
+      total += (src[counter][0] + src[counter][1])
+    end
+    counter += 1
+  end
+  total
+end
 
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
