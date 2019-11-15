@@ -1,7 +1,7 @@
 def join_ingredients(src)
   pizza_array=[]
   counter = 0
-  while counter < src.length
+  while counter < src.length do
     pizza_array.push("I love #{src[counter][0]} and #{src[counter][1]} on my pizza")
     counter +=1
   end
@@ -18,7 +18,7 @@ end
 def find_greater_pair(src)
   array=[]
   counter = 0
-  while counter < src.length
+  while counter < src.length do
     array.push(src[counter].max)
     counter +=1
   end
@@ -31,7 +31,7 @@ end
 def total_even_pairs(src)
 total = 0
   counter = 0
-  while counter < src.length
+  while counter < src.length do
   if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0
     total = total + (src[counter].sum)
     counter += 1
