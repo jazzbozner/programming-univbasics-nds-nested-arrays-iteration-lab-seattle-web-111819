@@ -1,11 +1,11 @@
 def join_ingredients(src)
-  pizza_array=[]
+  array=[]
   counter = 0
   while counter < src.length do
-    pizza_array.push("I love #{src[counter][0]} and #{src[counter][1]} on my pizza")
+    array.push("I love #{src[counter][0]} and #{src[counter][1]} on my pizza")
     counter +=1
   end
-  pizza_array
+  array
 end
 
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
@@ -25,10 +25,11 @@ def find_greater_pair(src)
     counter +=1
   end
   array
+end
+
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
-end
 
 def total_even_pairs(src)
 total = 0
